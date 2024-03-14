@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name = 'discordautochat',         # How you named your package folder (MyLib)
     packages = ['discordautochat'],   # Chose the same as "name"
-    version = '1.1',      # Start with a small number and increase it with every change you make
+    version = '1.3',      # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description = 'Just script to auto sending messages to discord channel',   # Give a short description about your library
     long_description=long_description,            # Give a long description about your library
@@ -17,11 +17,11 @@ setup(
     url = 'https://github.com/rizkychi/discordautochat',   # Provide either the link to your github or to your website
     download_url = 'https://github.com/rizkychi/discordautochat/archive/v_01.tar.gz',    # I explain this later on
     project_urls={
-        'Documentation': 'https://packaging.python.org/tutorials/distributing-packages/',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
-        'Tracker': 'https://github.com/pypa/sampleproject/issues',
+        'Documentation': 'https://github.com/rizkychi/discordautochat/',
+        'Funding': 'https://www.paypal.me/rizkychi',
+        'Say Thanks!': 'https://www.paypal.me/rizkychi',
+        'Source': 'https://github.com/rizkychi/discordautochat/',
+        'Tracker': 'https://github.com/rizkychi/discordautochat/issues',
     }, 
     keywords = ['discord', 'auto', 'bot', 'message', 'chat'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
