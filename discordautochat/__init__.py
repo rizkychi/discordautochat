@@ -1,1 +1,1 @@
-from .Filename import Classname
+from .main import get_connection
